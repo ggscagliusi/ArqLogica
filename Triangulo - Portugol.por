@@ -17,7 +17,7 @@ programa
 		somaAng = ang1 + ang2 + ang3
 
 		se (somaAng != 180)   //se a soma for DIFERENTE de 180
-		{escreva ("A soma foi " + somaAng + ". Não se pode criar um triangulo com os ângulos informados")} // escreva isto!
+		{escreva ("A soma foi " , somaAng , ". Não se pode criar um triangulo com os ângulos informados")} // escreva isto!
 		
 		senao se (ang1 == ang2 e ang2 == ang3) {escreva("O triângulo é equilátero")} // teste do triângulo equilátero
 		
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 450; 
+ * @POSICAO-CURSOR = 365; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
